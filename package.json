@@ -1,0 +1,41 @@
+{
+  "name": "universal_react",
+  "version": "1.0.0",
+  "description": "SSR practice",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "babel-node server.js"
+  },
+  "keywords": [
+    "SSR",
+    "Isomorphic",
+    "Rendering",
+    "Universal"
+  ],
+  "author": "Jean Troiani",
+  "license": "ISC",
+  "dependencies": {
+    "async-props": "^0.3.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-dom-server": "0.0.5",
+    "react-router": "^2.8.1",
+    "universal-react": "^1.0.0-rc4"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "babel-core": "^6.14.0",
+    "babel-cli": "^6.14.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-register": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-stage-2": "^6.13.0"
+  }
+}
